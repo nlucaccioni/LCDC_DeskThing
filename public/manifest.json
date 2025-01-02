@@ -1,0 +1,20 @@
+{
+  "label": "LCD Conditioner",
+  "isAudioSource": false,
+  "isScreenSaver": false,
+  "isWebApp": true,
+  "requires": [],
+  "version": "0.01.0",
+  "version_code": 1,
+  "description": "Simple LCD conditioner to help reduce image retention and burn-in.",
+  "author": "TheBigLoud",
+  "platforms": [
+    "linux",
+    "windows",
+    "mac"
+  ],
+  "homepage": "",
+  "repository": "https://github.com/nlucaccioni/LCDC_DeskThing",
+  "id": "lcdc",
+  "template": "full"
+}
