@@ -2,10 +2,10 @@
   "label": "LCD Conditioner",
   "isAudioSource": false,
   "isScreenSaver": false,
-  "isWebApp": true,
+  "isWebApp": false,
   "requires": [],
-  "version": "0.01.0",
-  "version_code": 1,
+  "version": "0.0.1",
+  "version_code": "0.1",
   "description": "Simple LCD conditioner to help reduce image retention and burn-in.",
   "author": "TheBigLoud",
   "platforms": [

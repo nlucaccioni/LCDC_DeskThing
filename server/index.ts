@@ -17,8 +17,8 @@ import { DeskThing, SocketData } from "deskthing-server";
 export { DeskThing };
 
 // The following imports are from other files that setup their own functions
-import { setupSettings } from "./settings";
-import { userInput } from "./userInput";
+// import { setupSettings } from "./settings";
+// import { userInput } from "./userInput";
 import { sendImage, sendSampleData } from "./sendingData";
 
 /**
@@ -39,8 +39,8 @@ const start = async () => {
   // This is being used to grab any associated data from the server once the app starts. This makes sure we dont try to initialize stuff twice if it already exists
   const Data = await DeskThing.getData();
 
-  setupSettings(Data);
-  userInput(Data);
+  // setupSettings(Data);
+  // userInput(Data);
     // This will make Data.settings.theme.value equal whatever the user selects
 };
 

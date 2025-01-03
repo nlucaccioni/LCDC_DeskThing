@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { DeskThing, SocketData } from "deskthing-client";
+// import { Settings } from 'deskthing-client/dist/types'
 
 const App: React.FC = () => {
   // useEffect(() => {
@@ -14,6 +15,8 @@ const App: React.FC = () => {
   //         removeListener()
   //     }
   // })
+
+  // const settings = await DeskThing.getSettings();
 
   const colors = ["#ff0000", "#00ff00", "#0000ff", "white", "black", "cyan", "magenta", "yellow"];
 
